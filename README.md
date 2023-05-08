@@ -1,7 +1,7 @@
 # c_blog
 
 Table of Contents:
-- [Section1](##section-1)
+- [Section1](#section-1)
 
 sds
 
