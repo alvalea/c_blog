@@ -3,6 +3,13 @@
 Table of Contents:
 - [Designated Initializers](#designated-initializers)
 - [Compound Literals](#compound-literals)
+- strcat, strcpy, strlen
+- memmove, realloc, calloc, memcpy
+- string
+- typedef (pointer star location)
+- function pointer (callbacks)
+- struct composition (inheritance)
+- union (multiple inheritance)
 
 ## Designated Initializers
 
@@ -47,7 +54,7 @@ int main(int argc, char* argv[]) {
 
 ## Compound Literals
 
-Constructs an unnamed object of specified type (which may be struct, union, or even array type) in-place.
+Constructs an unnamed object of specified type (which may be struct, union, or even array type) in-place
 
 ```C
 #include <stdio.h>
