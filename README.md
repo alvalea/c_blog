@@ -1,11 +1,9 @@
 # c_blog
 
 Table of Contents:
-- [Cool C features](#cool-c-features)
+- [Designated Initializers](#designated-initializers)
 
-## Cool C features
-
-Designated Initializers
+## Designated Initializers
 
 ```C
 // C program to demonstrate designated
@@ -31,7 +29,21 @@ int main()
 	
 	return 0;
 }
-
 ```
 
-Sample
+Designated Initializers with struct arrays
+
+```C
+// C program to demonstrate designated initializers
+// with structures and arrays combined
+#include <stdio.h>
+void main(void)
+{
+	struct point { int x, y; };
+	struct point pts[5] = { [2].y = 5, [2].x = 6, [0].x = 2 };
+	int i;
+	for (i = 0; i < 5; i++)
+		printf("%d %d\n", pts[i].x ,pts[i].y);
+}
+```
+
